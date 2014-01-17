@@ -1,4 +1,4 @@
-# WordPress Canvas Gallery #
+# WordPress Canvas - Responsive Videos #
 
 **Contributors:** cbaldelomar  
 **Donate link:** http://webplantmedia.com/donate/  
@@ -13,7 +13,7 @@ Simple responsive video plugin. Automatically determine aspect ratio. CSS only. 
 
 ## Description ##
 
-See the responsive videos in action.
+See the WordPress Responsive Videos plugin in action.
 
 1. [WordPress Canvas - Responsive Videos](http://wordpresscanvas.com/features/plugins/wc-responsive-video/)
 
