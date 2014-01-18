@@ -13,9 +13,15 @@ Simple responsive video plugin. Automatically determine aspect ratio. CSS only. 
 
 ## Description ##
 
-See the WordPress Responsive Videos plugin in action.
+This plugin will automatically resize your videos inserted in your WordPress editor. The code is light and only uses CSS. No javascript is used so there is no delay in your iframes and/or embeded objects from being resized. This plugin will also try to correctly guess your aspect ratio so your videos always look great. And if the aspect ratio is not correctly identified, then you can easily apply the correct aspect ratio using CSS. Every video is assigned a unique class name.
 
-1. [WordPress Canvas - Responsive Videos](http://wordpresscanvas.com/features/plugins/wc-responsive-video/)
+It currently has been tested for the following providers:
+
+* YouTube
+* Vimeo
+* DailyMotion
+
+[Live Demo & Documentation](http://wordpresscanvas.com/features/plugins/wc-responsive-video/)
 
 ### Professional Support
 
@@ -35,6 +41,15 @@ Thank you so much for even considering supporting my work. If you have benefited
 2. Upload the `wc-gallery` folder to your `/wp-content/plugins` directory.
 3. In your WordPress dashboard, head over to the *Plugins* section.
 4. Activate *WordPress Canvas - Responsive Videos*.
+
+## Screenshots ##
+
+###1. Desktop View###
+[missing image]
+
+###2. Mobile View###
+[missing image]
+
 
 ## Frequently Asked Questions ##
 
