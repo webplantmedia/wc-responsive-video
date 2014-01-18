@@ -38,14 +38,9 @@ Thank you so much for even considering supporting my work. If you have benefited
 == Installation ==
 
 1. Uzip the `wc-responsive-video.zip` folder.
-2. Upload the `wc-gallery` folder to your `/wp-content/plugins` directory.
+2. Upload the `wc-responsive-video` folder to your `/wp-content/plugins` directory.
 3. In your WordPress dashboard, head over to the *Plugins* section.
 4. Activate *WordPress Canvas - Responsive Videos*.
-
-== Screenshots ==
-
-1. Desktop View
-2. Mobile View
 
 == Frequently Asked Questions ==
 
@@ -58,12 +53,13 @@ http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
 
 Currently, 16:9, 4:3, and 3:2. But this will change as people send me tips and suggestions.
 
+== Screenshots ==
+
+1. Desktop View
+2. Mobile View
+
 == Changelog ==
 
-### Version 1.2
-
-* Updated documentation.
-
-### Version 1.1
+### Version 1.5
 
 * Plugin released.  Everything is new!
