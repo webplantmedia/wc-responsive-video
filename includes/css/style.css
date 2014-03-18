@@ -14,6 +14,8 @@ video {
 	padding-top: 25px;
 	height: 0;
 }
+.wc-responsive-video object,
+.wc-responsive-video embed,
 .wc-responsive-video iframe {
 	position: absolute;
 	top: 0;
