@@ -2,7 +2,7 @@
 /*
 Plugin Name: WordPress Canvas - Responsive Videos
 Plugin URI: http://wordpresscanvas.com/features/plugins/wc-responsive-video/
-Description: Simple responsive video plugin. Automatically determine aspect ratio. CSS only. No Javascript.
+Description: Simple responsive video plugin. Automatically determine aspect ratio.
 Author: Chris Baldelomar
 Author URI: http://webplantmedia.com/
 Version: 1.5
