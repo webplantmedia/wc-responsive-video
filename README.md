@@ -2,7 +2,7 @@
 
 **Contributors:** cbaldelomar  
 **Donate link:** http://webplantmedia.com/donate/  
-**Tags:** video, responsive, video, embeds, embed, object, iframe, youtube, vimeo, html5 video, oembed, embed discovery, auto-embed, automatic, auto, hulu, resize, fluid  
+**Tags:** video, responsive, video, embeds, embed, object, iframe, youtube, vimeo, html5 video, oembed, embed discovery, auto-embed, automatic, auto, hulu, resize, fluid, wordpress tv, wordpresstv
 **Requires at least:** 3.8  
 **Tested up to:** 3.8  
 **Stable tag:** trunk  
@@ -20,6 +20,10 @@ It currently has been tested for the following providers:
 * YouTube
 * Vimeo
 * DailyMotion
+* WordPress TV
+* Embed
+* Object
+* Iframe
 
 [Live Demo & Documentation](http://wordpresscanvas.com/features/plugins/wc-responsive-video/)
 
