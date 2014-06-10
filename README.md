@@ -1,4 +1,4 @@
-# WordPress Canvas - Responsive Videos #
+# WP Canvas - Responsive Videos #
 
 **Contributors:** cbaldelomar  
 **Donate link:** http://webplantmedia.com/donate/  
@@ -25,11 +25,11 @@ It currently has been tested for the following providers:
 * Object
 * Iframe
 
-[Live Demo & Documentation](http://wordpresscanvas.com/features/plugins/wc-responsive-video/)
+[Live Demo & Documentation](http://webplantmedia.com/starter-themes/wordpresscanvas/features/plugins/wc-responsive-video/)
 
 ### Professional Support
 
-If you need professional plugin support from me, the plugin author, you can contact me at [WordPress Canvas](http://wordpresscanvas.com/).
+If you need professional plugin support from me, the plugin author, you can contact me at [WordPress Canvas](http://webplantmedia.com/starter-themes/wordpresscanvas/).
 
 ### Plugin Development
 
@@ -58,6 +58,14 @@ http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
 Currently, 16:9, 4:3, and 3:2. But this will change as people send me tips and suggestions.
 
 ## Changelog ##
+
+### Version 1.7
+
+* Fixed division by zero bug
+
+### Version 1.6
+
+* responsive support for object and embed
 
 ### Version 1.5
 
