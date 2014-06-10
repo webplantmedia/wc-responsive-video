@@ -1,11 +1,15 @@
 <?php
 if ( ! function_exists( 'wc_responsive_video_html' ) ) {
 	function wc_responsive_video_html( $html, $url, $attr, $post_ID ) {
+		if ( ! $ratio = wc_responsive_video_html_get_ratio( $html ) ) {
+			return $html;
+		}
+
 		$class = array();
 		$class[] = 'wc-responsive-video';
 		$class[] = 'wc-rv-id-' . sanitize_title( $url );
 		$class[] = 'wc-rv-post-' . $post_ID;
-		$class[] = 'wc-rv-ratio-' . wc_responsive_video_html_get_ratio( $html );
+		$class[] = 'wc-rv-ratio-' . $ratio;
 
 		return '<p class="' . implode( ' ', $class ) . '">' . $html . '</p>';
 	}
@@ -51,6 +55,12 @@ if ( ! function_exists( 'wc_responsive_video_get_ratio' ) ) {
 	 */
 	function wc_responsive_video_html_get_ratio( $html ) {
 		list( $width, $height ) = wc_responsive_video_html_get_width_height( $html );
+
+		// check for twitter html that doesn't have width or height set in HTML.
+		if ( empty( $width ) || empty( $height ) ) {
+			return 0;
+		}
+
 		$ratio = round( $width / $height, 1 );
 
 		switch ( $ratio ) {
@@ -59,7 +69,7 @@ if ( ! function_exists( 'wc_responsive_video_get_ratio' ) ) {
 			case 1.3 :
 				return '4-3';
 			default :
-				return '0-0';
+				return 0;
 		}
 
 	}
