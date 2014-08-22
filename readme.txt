@@ -64,6 +64,10 @@ Currently, 16:9, 4:3, and 3:2. But this will change as people send me tips and s
 
 == Changelog ==
 
+### Version 1.8
+
+* Added responsive video support for jetpack
+
 ### Version 1.7
 
 * Fixed division by zero bug
