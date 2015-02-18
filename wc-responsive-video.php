@@ -11,5 +11,10 @@ License: GPLv2 or later
 
 define( 'WC_RESPONSIVE_VIDEO_VERSION', '1.8' );
 
+// Should only work on the front end
+if ( is_admin() ) {
+	return;
+}
+
 require_once( dirname(__FILE__) . '/includes/functions.php' ); // Adds basic filters and actions
 require_once( dirname(__FILE__) . '/includes/scripts.php' ); // Adds plugin JS and CSS
