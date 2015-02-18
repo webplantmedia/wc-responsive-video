@@ -5,11 +5,11 @@ Plugin URI: http://webplantmedia.com/starter-themes/wordpresscanvas/features/plu
 Description: Simple responsive video plugin. Automatically determine aspect ratio. CSS only. No Javascript.
 Author: Chris Baldelomar
 Author URI: http://webplantmedia.com/
-Version: 1.8
+Version: 1.9
 License: GPLv2 or later
 */
 
-define( 'WC_RESPONSIVE_VIDEO_VERSION', '1.8' );
+define( 'WC_RESPONSIVE_VIDEO_VERSION', '1.9' );
 
 // Should only work on the front end
 if ( is_admin() ) {

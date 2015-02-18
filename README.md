@@ -59,6 +59,10 @@ Currently, 16:9, 4:3, and 3:2. But this will change as people send me tips and s
 
 ## Changelog ##
 
+### Version 1.9
+
+* Fixed bug with responsive video wrapper being added to WP Editor
+
 ### Version 1.8
 
 * Added responsive video support for jetpack

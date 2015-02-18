@@ -27,15 +27,15 @@ It currently has been tested for the following providers:
 
 [Live Demo & Documentation](http://webplantmedia.com/starter-themes/wordpresscanvas/features/plugins/wc-responsive-video/)
 
-### Professional Support
+= Professional Support =
 
 If you need professional plugin support from me, the plugin author, you can contact me at [WordPress Canvas](http://webplantmedia.com/starter-themes/wordpresscanvas/).
 
-### Plugin Development
+= Plugin Development =
 
 If you're a theme author, plugin author, or just a code hobbyist, you can follow the development of this plugin on it's [GitHub repository](https://github.com/webplantmedia/wc-responsive-video). 
 
-### Donations
+= Donations =
 
 Thank you so much for even considering supporting my work. If you have benefited from my WordPress plugins, or are appreciative of my customer support, and feel led to send me a monetary donation, please follow the link [here](http://webplantmedia.com/donate/). I am truly thankful for your hard earned giving.
 
@@ -48,12 +48,12 @@ Thank you so much for even considering supporting my work. If you have benefited
 
 == Frequently Asked Questions ==
 
-### How does this plugin work?
+= How does this plugin work? =
 
 Once you activate this plugin, an element will wrap your iframe videos and the following CSS hacks will be applied.
 http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
 
-### What aspect ratios do you support?
+= What aspect ratios do you support? =
 
 Currently, 16:9, 4:3, and 3:2. But this will change as people send me tips and suggestions.
 
@@ -64,18 +64,22 @@ Currently, 16:9, 4:3, and 3:2. But this will change as people send me tips and s
 
 == Changelog ==
 
-### Version 1.8
+= Version 1.9 =
+
+* Fixed bug with responsive video wrapper being added to WP Editor
+
+= Version 1.8 =
 
 * Added responsive video support for jetpack
 
-### Version 1.7
+= Version 1.7 =
 
 * Fixed division by zero bug
 
-### Version 1.6
+= Version 1.6 =
 
 * responsive support for object and embed
 
-### Version 1.5
+= Version 1.5 =
 
 * Plugin released.  Everything is new!
