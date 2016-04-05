@@ -1,6 +1,9 @@
 <?php
 if ( ! function_exists( 'wc_responsive_video_html' ) ) {
 	function wc_responsive_video_html( $html, $url, $attr, $post_ID ) {
+		if ( ! preg_match( '/^<iframe.*\<\/iframe\>$/', $html ) ) {
+			return $html;
+		}
 		if ( ! $ratio = wc_responsive_video_html_get_ratio( $html ) ) {
 			return $html;
 		}
@@ -18,6 +21,9 @@ add_filter( 'embed_oembed_html', 'wc_responsive_video_html', 999, 4 );
 
 if ( ! function_exists( 'wc_responsive_video_html_jetpack' ) ) {
 	function wc_responsive_video_html_jetpack( $html ) {
+		if ( ! preg_match( '/^<iframe.*\<\/iframe\>$/', $html ) ) {
+			return $html;
+		}
 		if ( ! $ratio = wc_responsive_video_html_get_ratio( $html ) ) {
 			return $html;
 		}
