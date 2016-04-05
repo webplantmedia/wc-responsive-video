@@ -4,7 +4,7 @@ Contributors: cbaldelomar
 Donate link: http://webplantmedia.com/donate/
 Tags: video, responsive, video, embeds, embed, object, iframe, youtube, vimeo, html5 video, oembed, embed discovery, auto-embed, automatic, auto, hulu, resize, fluid, wordpress tv, wordpresstv
 Requires at least: 3.8
-Tested up to: 3.8
+Tested up to: 4.5
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -63,6 +63,10 @@ Currently, 16:9, 4:3, and 3:2. But this will change as people send me tips and s
 2. Mobile View
 
 == Changelog ==
+
+= Version 1.10 =
+
+* Fixed bug with embed links being added to responsive video css
 
 = Version 1.9 =
 
