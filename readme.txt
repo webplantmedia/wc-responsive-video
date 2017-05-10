@@ -1,7 +1,6 @@
-=== WP Canvas - Responsive Videos ===
+=== Responsive Videos by Angie Makes ===
 
 Contributors: cbaldelomar
-Donate link: http://webplantmedia.com/donate/
 Tags: video, responsive, video, embeds, embed, object, iframe, youtube, vimeo, html5 video, oembed, embed discovery, auto-embed, automatic, auto, hulu, resize, fluid, wordpress tv, wordpresstv
 Requires at least: 3.8
 Tested up to: 4.5
@@ -12,6 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Simple responsive video plugin. Automatically determine aspect ratio. CSS only. No Javascript.
 
 == Description ==
+
+This plugin was designed and tested to work with [Angie Makes WordPress themes](http://angiemakes.com/feminine-wordpress-blog-themes-women/).
 
 This plugin will automatically resize your videos inserted in your WordPress editor. The code is light and only uses CSS. No javascript is used so there is no delay in your iframes and/or embeded objects from being resized. This plugin will also try to correctly guess your aspect ratio so your videos always look great. And if the aspect ratio is not correctly identified, then you can easily apply the correct aspect ratio using CSS. Every video is assigned a unique class name.
 
@@ -25,19 +26,7 @@ It currently has been tested for the following providers:
 * Object
 * Iframe
 
-[Live Demo & Documentation](http://webplantmedia.com/starter-themes/wordpresscanvas/features/plugins/wc-responsive-video/)
-
-= Professional Support =
-
-If you need professional plugin support from me, the plugin author, you can contact me at [WordPress Canvas](http://webplantmedia.com/starter-themes/wordpresscanvas/).
-
-= Plugin Development =
-
-If you're a theme author, plugin author, or just a code hobbyist, you can follow the development of this plugin on it's [GitHub repository](https://github.com/webplantmedia/wc-responsive-video). 
-
-= Donations =
-
-Thank you so much for even considering supporting my work. If you have benefited from my WordPress plugins, or are appreciative of my customer support, and feel led to send me a monetary donation, please follow the link [here](http://webplantmedia.com/donate/). I am truly thankful for your hard earned giving.
+[Live Demo & Documentation](http://hallie.angiemakes.com/blog/)
 
 == Installation ==
 
@@ -63,6 +52,10 @@ Currently, 16:9, 4:3, and 3:2. But this will change as people send me tips and s
 2. Mobile View
 
 == Changelog ==
+
+= Version 1.11 =
+
+* rebranded
 
 = Version 1.10 =
 

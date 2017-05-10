@@ -1,15 +1,15 @@
 <?php
 /*
-Plugin Name: WP Canvas - Responsive Videos
-Plugin URI: http://webplantmedia.com/starter-themes/wordpresscanvas/features/plugins/wc-responsive-video/
+Plugin Name: Responsive Videos by Angie Makes
+Plugin URI: http://angiemakes.com/feminine-wordpress-blog-themes-women/
 Description: Simple responsive video plugin. Automatically determine aspect ratio. CSS only. No Javascript.
 Author: Chris Baldelomar
-Author URI: http://webplantmedia.com/
-Version: 1.10
+Author URI: http://angiemakes.com/
+Version: 1.11
 License: GPLv2 or later
 */
 
-define( 'WC_RESPONSIVE_VIDEO_VERSION', '1.10' );
+define( 'WC_RESPONSIVE_VIDEO_VERSION', '1.11' );
 
 // Should only work on the front end
 if ( is_admin() ) {
